@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoadScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="dhC-5V-bcA">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <animations/>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.39215686274509803" green="0.83921568627450982" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="dhC-5V-bcA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6mH-hb-iLp"/>
+                <constraint firstItem="dhC-5V-bcA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cd7-YT-q4O"/>
+                <constraint firstAttribute="bottom" secondItem="dhC-5V-bcA" secondAttribute="bottom" id="gbL-gd-Xjd"/>
+                <constraint firstAttribute="trailing" secondItem="dhC-5V-bcA" secondAttribute="trailing" id="wdw-37-t3K"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LoadScreen.png" width="1242" height="2208"/>
+    </resources>
+</document>
